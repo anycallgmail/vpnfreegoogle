@@ -33,9 +33,9 @@ CUSTOM_DOMAIN_FILE = INSTALL_DIR / "custom_domain.txt" # 存储最终使用的�
 # ====== 全局可配置参数（可直接在此处修改） ======
 USER_NAME = "ziding"         # 用户名
 UUID = "a91b59b6-ade4-497d-b4e9-88d184c48048"                     # UUID，留空则自动生成
-PORT = 51142                   # Vmess端口，留空或0则自动生成
-DOMAIN =                    # 域名，留空则自动获取
-CF_TOKEN =                  # Cloudflare Token，留空则用Quick Tunnel
+PORT = 44999                   # Vmess端口，留空或0则自动生成
+DOMAIN = "cftunnel1.iiii.nyc.mn"                    # 域名，留空则自动获取
+CF_TOKEN = "eyJhIjoiOGI0YWFmYTU2ZjA1MGI4NDAxNGExMDk4ZjNiMTBiMDkiLCJ0IjoiZDFjYTI4OTktN2NmYS00MzAxLWEzMjktYjgyYTU0NWZhYzg5IiwicyI6Ik1tUmpNV1ptWWprdE9ETmlZeTAwTlRNNUxUa3hNalF0T1Rrd016VmlaREE1TURWaiJ9"                  # Cloudflare Token，留空则用Quick Tunnel
 # =========================================
 
 # 添加命令行参数解析
